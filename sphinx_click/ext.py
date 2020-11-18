@@ -29,6 +29,7 @@ def _indent(text, level=1):
 
 def _escape(text):
     text = text.replace('`', '\\`')
+    text = text.replace('*', '\\*')
     return text
 
 
